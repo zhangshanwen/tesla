@@ -1,0 +1,5 @@
+venv/
+.idea/
+polls/model/__pycache__
+tesla/__pycache__/
+*.pyc
