@@ -7,8 +7,8 @@ from .base import *
 from polls.models import Wallet
 
 
-@require_http_methods(["POST"])
-def login(request):
+@require_http_methods(["GET"])
+def wallet(request):
     param = {
         "mobile":   "required",
         "password": "required",
